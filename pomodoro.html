@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<HTML lang = "en">
+	<HEAD>
+		<title>Pomodoro Clock</title>
+	</HEAD>
+	<body>
+		<link rel="stylesheet" type="text/css" href="css/pomodoro.css">
+		<h1>Pomodoro Clock</h1>
+		<form>
+			Session (seconds):
+			<input type="text" class="session" value="1500">
+			Break (seconds):
+			<input type="text" class="break" value="300">
+			<input type="submit" value="Submit" class="submit">
+		</form>
+		<div class="container"><div class="workClock">1500</div><div class="breakClock">300</div></div>
+			<form>
+				<input type="submit" value="Start" class="start">
+				<input type="submit" value="Stop" class="stop">
+			</form>
+
+		<script src="js/pomodoro.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</body>
+</HTML>
