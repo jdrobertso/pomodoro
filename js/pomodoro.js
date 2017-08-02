@@ -22,6 +22,7 @@ function setCountdown(workTime, breakTime){
     $(".breakClock").textContent(breakTime);
 }
 
+// useless bullshit below this line
 
 var x = setInterval(function() {
     var workTime = (workTime - 1);
